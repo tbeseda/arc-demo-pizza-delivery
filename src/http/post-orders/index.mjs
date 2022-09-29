@@ -35,7 +35,7 @@ export const handler = arc.http.async(async (request) => {
 <p class="center">
 	Thanks for your order!<br>
 	We'll start working on your
-	${savedOrder.size}
+	${savedOrder.size},
 	${savedOrder.toppings ? `${savedOrder.toppings.length}-topping` : ""}
 	pizza... eventually.
 </p>`,

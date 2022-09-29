@@ -22,5 +22,6 @@ orders
   tip **Number    # optional sort key
 
 @aws
+runtime nodejs16.x
 region us-west-2
 architecture arm64
