@@ -21,10 +21,12 @@ export const handler = arc.http.async(async (request) => {
 
 	const savedOrder = await orders.put(newOrder);
 
-	console.log(
-		`Order <${savedOrder.orderID}> saved`,
-		JSON.stringify(savedOrder, null, 2),
-	);
+	console.log(`Order <${savedOrder.orderID}> saved`);
+
+	await arc.events.publish({
+		name: "new-order",
+		payload: savedOrder,
+	});
 
 	return {
 		html: document(
