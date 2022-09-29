@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+main {
+  margin-bottom: 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+fieldset {
+  padding: 0.5rem 1rem 1rem;
+}
+
+select {
+  width: 100%;
+  overflow: hidden;
+}
+
+select optgroup {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #999;
+}
+
+select option {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+select option[disabled] {
+  color: #bbb;
+}
+
+button {
+  padding: 0.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: .5rem;
+  border: 1px solid lightgrey;
+}
+
+footer {
+  text-align: center;
+  font-size: .8rem;
+  opacity: 0.5;
+}

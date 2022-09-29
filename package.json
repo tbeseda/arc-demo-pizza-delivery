@@ -1,0 +1,14 @@
+{
+  "name": "pizza-delivery-",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx arc sandbox"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.6.0"
+  },
+  "dependencies": {
+    "@architect/functions": "^5.2.2"
+  }
+}
