@@ -7,7 +7,7 @@ export default function (body) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>tbeseda's Pizza Delivery</title>
 	<link rel="icon" href="https://fav.farm/🍕" />
-	<link rel="stylesheet" href="_static/style.css" />
+	<link rel="stylesheet" href="/_static/style.css" />
 </head>
 <body>
 	<main>${body}</main>

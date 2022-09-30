@@ -19,7 +19,7 @@ export const handler = arc.http.async(async (request) => {
 		<tr>
 			<th>Customer</th>
 			<th colspan=2>Pie Order</th>
-			<!-- <th>Tip 💰</th> -->
+			<th>Tip 💰</th>
 			<th>Actions</th>
 		</tr>
 	</thead>
@@ -39,7 +39,7 @@ function tableRows(items) {
 	<td>${o.name} @ ${o.address}</td>
 	<td>${o.size}</td>
 	<td>${o.toppings.join(", ")}</td>
-	<!-- <td>${o.tip ? o.tip / 100 : "🤬"}</td> -->
+	<td>${o.tip ? o.tip / 100 : "🤬"}</td>
 	<td><button>deliver</button> <button>cancel</button></td>
 </tr>
 	`,
